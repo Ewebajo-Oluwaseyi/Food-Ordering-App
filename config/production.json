@@ -1,0 +1,4 @@
+{
+    "mongoURI": "mongodb+srv://adeoluwa:adeoluwa@foodapp.lairx.mongodb.net/test?retryWrites=true&w=majority",
+    "jwtSecret": "secret"
+}

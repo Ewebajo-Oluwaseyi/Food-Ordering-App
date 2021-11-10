@@ -1,0 +1,23 @@
+.allflex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-transform: capitalize;
+  margin: 2rem 0rem;
+}
+
+.viewall {
+  cursor: pointer;
+  display: flex;
+  text-decoration: none;
+  color: black;
+  align-items: center;
+}
+
+.selectall {
+  padding: 0.2rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  color: #79778d;
+}

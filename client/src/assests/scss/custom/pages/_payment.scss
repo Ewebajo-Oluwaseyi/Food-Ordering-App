@@ -1,0 +1,122 @@
+.paymentcontainer {
+  border: 1px solid #79778d48;
+  border-radius: 15px;
+  margin: 2rem 0rem;
+  padding: 1rem 3rem;
+}
+
+.payment {
+  padding: 2rem;
+  border-bottom: 1px solid #79778d48;
+  position: relative;
+}
+.payable {
+  padding: 1rem;
+  position: relative;
+}
+.paymentgrid {
+  display: grid;
+  grid-template-columns: 30px 30px 150px;
+  grid-template-rows: 1fr 1fr 1fr;
+  column-gap: 20px;
+  align-items: center;
+  text-transform: capitalize;
+  justify-content: flex-start;
+}
+.payablegrid {
+  display: grid;
+  grid-template-columns: 20px 1fr 1fr;
+  grid-template-rows: 50px 50px 50px 1fr;
+  align-items: center;
+  text-transform: capitalize;
+  justify-content: flex-start;
+}
+.delivery {
+  padding: 2rem;
+  border-bottom: 1px solid #79778d48;
+  position: relative;
+}
+.deliverygrid {
+  grid-template-columns: 30px 200px;
+  grid-template-rows: 1fr 1fr;
+  column-gap: 10px;
+}
+.deli {
+  text-align: left;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.addressinput {
+  margin-left: 1rem;
+  width: 50%;
+}
+@media (max-width: 634px) {
+  .addressinput {
+    width: 70%;
+  }
+}
+@media (max-width: 438px) {
+  .addressinput {
+    width: 90%;
+  }
+}
+.deliverygrid input {
+  outline: none;
+  border: none;
+  padding: 0.5rem;
+  border: 1px solid #282829e5;
+  border-radius: 5px;
+  margin-top: 0.3rem;
+}
+
+.choose {
+  grid-column: 1/-1;
+  text-align: left;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+.choose1 {
+  grid-column: 1/-1;
+  text-align: left;
+  text-transform: capitalize;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+.mastercard {
+  color: #fcbc30;
+  cursor: pointer;
+}
+.paypal {
+  color: #fcbc30;
+  cursor: pointer;
+}
+.credit {
+  text-align: left;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.circle {
+  font-size: 0.5rem;
+  color: #79778d;
+  text-align: left;
+}
+
+.sub {
+  text-align: left;
+  color: #79778d;
+}
+.dol {
+  text-align: right;
+  color: #79778d;
+}
+.deliveryprofile {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}

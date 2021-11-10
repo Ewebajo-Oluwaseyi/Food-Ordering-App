@@ -1,0 +1,20 @@
+.title {
+  color: $gray-700;
+  // height: ;
+}
+.pic {
+  width: 70%;
+  height: 70%;
+  /* margin-bottom: 0.5rem; */
+  object-fit: contain;
+}
+@media (max-width: 700px) {
+  .pic {
+    display: none;
+  }
+}
+.categorycard {
+  &:hover {
+    background-color: #fcbc30;
+  }
+}
